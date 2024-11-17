@@ -1,0 +1,58 @@
+/* Container Styles */
+.email-ai-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title Styles */
+  .email-ai-container .ant-typography {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Card Styles */
+  .metrics-card, .emails-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Table Styles */
+  .emails-table {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Row Hover Effect */
+  .emails-table .ant-table-tbody > tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Spinner Styles */
+  .loading-spinner {
+    display: block;
+    margin: 50px auto;
+  }
+  
+  /* Card and Table Responsive Design */
+  @media (max-width: 768px) {
+    .email-ai-container {
+      padding: 15px;
+    }
+    .metrics-card, .emails-card {
+      margin-bottom: 10px;
+    }
+  }
+  
